@@ -1,5 +1,8 @@
-const cidade = {SP: 'São Paulo', RJ: 'Volta Redonda', MG: 'Belo Horizonte', AM: 'Manaus'}
+// 1. Criando o objeto com siglas e nomes 
+const cidade = { SP: 'São Paulo', RJ: 'Volta Redonda', MG: 'Belo Horizonte', AM: 'Manaus' };
 
-for(const sigla in cidade){
-    console.log(`${sigla} - ${cidade[sigla]}`)
-}
+  // 2. Aplicando o laço for...in para percorrer as chaves
+ for (const sigla in cidade) {
+
+// 3. Imprimindo a sigla (índice) e a cidade (propriedade)
+console.log(`${sigla} - ${cidade[sigla]}`); }
