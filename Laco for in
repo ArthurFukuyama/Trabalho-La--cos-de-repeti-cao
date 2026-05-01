@@ -1,0 +1,5 @@
+const cidade = {SP: 'São Paulo', RJ: 'Volta Redonda', MG: 'Belo Horizonte', AM: 'Manaus'}
+
+for(const sigla in cidade){
+    console.log(`${sigla} - ${cidade[sigla]}`)
+}
